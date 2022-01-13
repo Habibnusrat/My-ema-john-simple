@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .field img {
+            margin: 50px;
+            height: 200px;
+            width: 200px;
+        }
+
+        .field {
+            border: 1px solid red;
+        }
+
+        .field:hover .bat {
+            transform: rotate(-70deg);
+            transform-origin: top right;
+        }
+
+        .ball {
+            width: 30px;
+            height: 30px;
+            background-color: red;
+            border-radius: 15px;
+            position: relative;
+            left: 356px;
+            bottom: 50px;
+            transition: transform 2s ease-out 0.2s;
+
+        }
+
+        .field:hover .ball {
+            transform: translate(800px, -500px);
+        }
+
+        .bat {
+            transition: transform 0.2s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="field">
+        <img class="bat"
+            src="/1200-1250-tc-360-full-size-short-handle-short-handle-8787-new-original-imafehvahcdpppvh_1200x1200.jpg"
+            alt="">
+        <div class="ball">
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

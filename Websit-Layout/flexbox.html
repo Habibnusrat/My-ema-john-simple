@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        .container {
+            height: 500px;
+            border: 2px dotted red;
+            display: flex;
+
+
+        }
+
+        .box {
+            height: 300px;
+            width: 100px;
+            border: 2px dotted cornflowerblue;
+        }
+
+        #boxi-1 {
+            order: 2;
+        }
+
+        #boxi {
+            order: 1;
+            flex-grow: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>I Am flexible right now</h1>
+    <div class="container">
+        <div id="boxi-1" class="box">box-1</div>
+        <div id="boxi" class="box">box-2</div>
+
+    </div>
+</body>
+
+</html>
